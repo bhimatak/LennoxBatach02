@@ -77,3 +77,25 @@ print(l10)
 #[resElem for ele in iterObj ]
 l11 = [i+10 if i%2==0 else i+5 for i in range(1,10)]
 print(l11)
+
+l1 = ['1','2','3']
+print(list(map(int, l1)))
+# int('3')
+a,b,c = map(int,input().split())
+
+print(a,b,c, type(c))
+
+l = map(int, input().split(','))
+print(l, type(l))
+t2 = tuple(l)
+print(t2)
+# map(method, iterableObj)
+# a,b,c = intinput().split()
+# print(type(a),b,c)
+# a = int(a)
+#
+#
+#
+#
+# # s1 = "hello world! Bhima"
+# # print(s1.split())
