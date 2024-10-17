@@ -50,4 +50,16 @@ for i,j in d1.items():
 d3 = {1:2,3:4,5:6,7:8}
 
 for i in d3.items():
-    print(i)
+    print(i, type(i)) #tuples are generated
+
+'''
+
+returnType NameFunc(args)
+{
+    return type
+}
+
+def NameFunc(args):
+    sts
+    return dt
+'''
