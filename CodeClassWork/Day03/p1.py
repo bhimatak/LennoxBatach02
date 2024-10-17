@@ -53,3 +53,11 @@ print(l1)
 
 l2 = ['1']*10
 print(l2)
+
+
+s1 = "Python"
+
+for i in s1:
+    if i == 'h':
+        break
+    print(i, end=" ")
