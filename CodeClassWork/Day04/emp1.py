@@ -11,6 +11,9 @@ class Employee:
     def getID(self):
         return self._id
 
+    def func1(self, a=0,b=0):
+        print("With args")
+
     def display(self):
         print("Employee Record\n{}\n{}\n{}\n".format(self._id,self._fName,self._lName))
 
@@ -29,3 +32,5 @@ print(l)
 # id = int(input("Enter id: "))
 # for i in range(3):
 #     if id == e1
+
+e1.func1()
